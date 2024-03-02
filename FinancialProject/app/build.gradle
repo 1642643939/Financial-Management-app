@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "com.finance"
+        minSdkVersion 8
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/afinal_0.5.1_bin.jar')
+    compile files('libs/classes.jar')
+    compile files('libs/commons-net-3.0.1.jar')
+    compile files('libs/hellocharts-library-1.5.8.jar')
+    compile files('libs/picasso-2.4.0.jar')
+    compile files('libs/string_encrypt.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+}

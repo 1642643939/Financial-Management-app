@@ -1,0 +1,241 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.finance"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="8"
+8-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:8:9-34
+9        android:targetSdkVersion="22" />
+9-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:11:5-81
+11-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:11:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:12:5-67
+12-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:12:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:13:5-81
+13-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:13:22-78
+14    <!-- 获取机型信息权限 -->
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:15:5-75
+15-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:15:22-72
+16    <uses-permission android:name="android.permission.GET_TASKS" />
+16-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:16:5-68
+16-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:16:22-65
+17    <!-- <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" /> -->
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:12:5-67
+18-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:11:5-81
+19-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:11:22-78
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:13:5-81
+20-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:13:22-78
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:21:5-79
+21-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:21:22-76
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:22:5-79
+22-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:22:22-77
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:11:5-81
+23-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:11:22-78
+24    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+24-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:24:5-82
+24-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:24:22-79
+25
+26    <application
+26-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:27:5-134:19
+27        android:name="com.finance.app.FinanceApplication"
+27-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:28:9-58
+28        android:allowBackup="true"
+28-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:29:9-35
+29        android:debuggable="true"
+30        android:icon="@drawable/icon_sz"
+30-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:30:9-41
+31        android:label="@string/app_name"
+31-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:31:9-41
+32        android:theme="@android:style/Theme.NoTitleBar" >
+32-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:32:9-56
+33        <activity
+33-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:35:9-43:20
+34            android:name="com.finance.LoginActivity"
+34-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:36:13-42
+35            android:label="@string/app_name" >
+35-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:37:13-45
+36            <intent-filter>
+36-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:38:13-42:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:39:17-69
+37-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:39:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:41:17-77
+39-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:41:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:44:9-47:20
+43            android:name="com.finance.TongJiZheXianActivity"
+43-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:45:13-50
+44            android:label="@string/title_activity_login" >
+44-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:46:13-57
+45        </activity>
+46        <activity
+46-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:48:9-51:20
+47            android:name="com.finance.TongJiBingActivity"
+47-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:49:13-47
+48            android:label="@string/title_activity_login" >
+48-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:50:13-57
+49        </activity>
+50        <activity
+50-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:52:9-55:20
+51            android:name="com.finance.CreateUpdateMessageActivity"
+51-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:53:13-56
+52            android:label="@string/title_activity_login" >
+52-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:54:13-57
+53        </activity>
+54        <activity
+54-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:57:9-61:20
+55            android:name="com.finance.RegisterActivity"
+55-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:58:13-45
+56            android:label="@string/title_activity_login"
+56-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:59:13-57
+57            android:windowSoftInputMode="stateHidden" >
+57-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:60:13-54
+58        </activity>
+59        <activity
+59-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:62:9-65:20
+60            android:name="com.finance.TongJiInMessageActivity"
+60-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:63:13-52
+61            android:label="@string/title_activity_query" >
+61-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:64:13-57
+62        </activity>
+63        <activity
+63-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:66:9-69:20
+64            android:name="com.finance.TypeListActivity"
+64-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:67:13-45
+65            android:label="@string/title_activity_show_picture" >
+65-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:68:13-64
+66        </activity>
+67        <activity
+67-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:70:9-73:20
+68            android:name="com.finance.TongJiOutMessageActivity"
+68-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:71:13-53
+69            android:label="@string/title_activity_show_picture" >
+69-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:72:13-64
+70        </activity>
+71        <activity
+71-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:74:9-77:20
+72            android:name="com.finance.UpdatePswdActivity"
+72-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:75:13-47
+73            android:label="@string/title_activity_show_picture" >
+73-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:76:13-64
+74        </activity>
+75        <activity
+75-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:78:9-81:20
+76            android:name="com.finance.UserMessageUpdateActivity"
+76-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:79:13-54
+77            android:label="@string/title_activity_person_title" >
+77-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:80:13-64
+78        </activity>
+79        <activity
+79-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:82:9-85:20
+80            android:name="com.finance.CreatePswdMessageActivity"
+80-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:83:13-54
+81            android:label="@string/title_activity_year_result" >
+81-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:84:13-63
+82        </activity>
+83        <activity
+83-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:86:9-89:20
+84            android:name="com.finance.FrameworkActivity"
+84-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:87:13-46
+85            android:label="@string/title_activity_year_result" >
+85-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:88:13-63
+86        </activity>
+87        <activity
+87-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:90:9-93:20
+88            android:name="com.finance.UpdateMessageActivity"
+88-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:91:13-50
+89            android:label="@string/title_activity_house_message" >
+89-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:92:13-65
+90        </activity>
+91        <activity
+91-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:94:9-97:20
+92            android:name="com.finance.UserActivity"
+92-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:95:13-52
+93            android:label="@string/title_activity_order" >
+93-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:96:13-57
+94        </activity>
+95        <activity
+95-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:98:9-101:20
+96            android:name="com.finance.CalActivity"
+96-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:99:13-51
+97            android:label="@string/title_activity_order" >
+97-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:100:13-57
+98        </activity>
+99        <activity
+99-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:102:9-105:20
+100            android:name="com.finance.CreateMessageActivity"
+100-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:103:13-61
+101            android:label="@string/title_activity_order" >
+101-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:104:13-57
+102        </activity>
+103        <activity
+103-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:106:9-109:20
+104            android:name="com.finance.CreateTypeMessageActivity"
+104-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:107:13-65
+105            android:label="@string/title_activity_order" >
+105-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:108:13-57
+106        </activity>
+107        <activity
+107-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:110:9-113:20
+108            android:name="com.finance.SoftMessageActivity"
+108-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:111:13-59
+109            android:label="@string/title_activity_order" >
+109-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:112:13-57
+110        </activity>
+111        <activity
+111-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:114:9-117:20
+112            android:name="com.finance.GuideTopicDetailActivity"
+112-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:115:13-64
+113            android:label="@string/title_activity_order" >
+113-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:116:13-57
+114        </activity>
+115        <activity
+115-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:118:9-121:20
+116            android:name="com.finance.PswdMessageActivity"
+116-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:119:13-59
+117            android:label="@string/title_activity_order" >
+117-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:120:13-57
+118        </activity>
+119        <activity
+119-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:123:17-126:20
+120            android:name="com.finance.UpdateTypeInMessageActivity"
+120-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:124:13-67
+121            android:label="@string/title_activity_order" >
+121-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:125:13-57
+122        </activity>
+123        <activity
+123-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:127:21-130:20
+124            android:name="com.finance.UpdateTypeOutMessageActivity"
+124-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:128:21-76
+125            android:label="@string/title_activity_order" >
+125-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:129:13-57
+126        </activity>
+127
+128        <meta-data
+128-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:132:9-133:35
+129            android:name="android.max_aspect"
+129-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:132:20-53
+130            android:value="2.1" />
+130-->E:\BStest\up1\FinancialProject\app\src\main\AndroidManifest.xml:133:13-32
+131    </application>
+132
+133</manifest>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_login"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="统计依据："
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+            <RadioGroup
+                android:id="@+id/mrgChoiceTime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/mrbTime1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/choice_contact_bg"
+                    android:checked="true"
+                    android:paddingLeft="8dp"
+                    android:text="日"
+                    android:textColor="#333333"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/mrbTime2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:button="@drawable/choice_contact_bg"
+                    android:paddingLeft="8dp"
+                    android:text="月"
+                    android:textColor="#333333"
+                    android:textSize="16dp" />
+                <RadioButton
+                    android:id="@+id/mrbTime3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:button="@drawable/choice_contact_bg"
+                    android:paddingLeft="8dp"
+                    android:text="年"
+                    android:textColor="#333333"
+                    android:textSize="16dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp" >
+
+            <ListView
+                android:id="@+id/mListMessage"
+                android:layout_width="match_parent"
+ 
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:divider="@color/bg_color_login"
+                android:dividerHeight="1dp"
+                android:listSelector="@drawable/listview"
+                android:scrollbars="none" />
+
+            <LinearLayout
+                android:id="@+id/mllNomessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                               android:visibility="gone"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/no_message" />
+
+                <TextView
+                    android:id="@+id/mtvTipMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="暂无信息"
+                    android:textColor="#bfbfbf" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+<ImageView 
+        android:id="@+id/mivCreateMessage"
+        android:layout_width="50dp"
+        android:visibility="gone"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/icon_zhichu_img"
+        android:padding="5dp"
+        />
+</RelativeLayout>

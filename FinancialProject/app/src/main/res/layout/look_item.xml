@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/oneView"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="#cccccc" />
+
+        <ImageView
+            android:id="@+id/mivImage"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@id/oneView"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_yuanhuan" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/mivImage"
+            android:layout_centerHorizontal="true"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/mtvCate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/oneView"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/oneView"
+            android:gravity="center_vertical"
+            android:text="买衣服"
+            android:textColor="#4592B5"
+            android:textSize="@dimen/dp_14" />
+
+        <TextView
+            android:id="@+id/mtvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+             android:layout_below="@id/oneView"
+            android:layout_toRightOf="@id/oneView"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="666 "
+            android:textColor="#ff0000"
+            android:textSize="@dimen/dp_14" />
+        
+        
+        
+        
+        <TextView
+            android:id="@+id/mtvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+             android:layout_below="@id/mtvCate"
+                        android:layout_toRightOf="@id/oneView"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="3dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="666 "
+            android:textColor="#666666"
+            android:textSize="@dimen/dp_12" />
+        
+        <TextView
+            android:id="@+id/mtvCateLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/oneView"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@id/oneView"
+            android:gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:text="买衣服"
+            android:textColor="#4592B5"
+            android:textSize="@dimen/dp_14" />
+
+        <TextView
+            android:id="@+id/mtvPriceLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+             android:layout_below="@id/oneView"
+            android:layout_toLeftOf="@id/oneView"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="666 "
+            android:textColor="#ff0000"
+            android:textSize="@dimen/dp_14" />
+        
+        
+             
+        <TextView
+            android:id="@+id/mtvTimeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@id/oneView"
+            android:layout_marginTop="3dp"
+            android:layout_below="@id/mtvCateLeft"
+            android:gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:text="666"
+            android:textColor="#666666"
+            android:textSize="@dimen/dp_12" />
+        
+        
+    </RelativeLayout>
+
+</LinearLayout>

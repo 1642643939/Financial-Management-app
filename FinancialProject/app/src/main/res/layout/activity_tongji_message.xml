@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_login"
+    android:orientation="vertical"
+    tools:context=".UnLoginActiviy" >
+
+    <include
+        android:id="@+id/rl_title"
+        layout="@layout/title_layout" />
+
+    <lecho.lib.hellocharts.view.ColumnChartView
+        android:id="@+id/chart_tiao"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent" >
+    </lecho.lib.hellocharts.view.ColumnChartView>
+
+
+</LinearLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.finance"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 获取机型信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.finance.app.FinanceApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/icon_sz"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <service android:name="com.amap.api.location.APSService" >
+        </service>
+
+        <activity
+            android:name="com.finance.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.finance.TongJiZheXianActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.finance.MyZhiChuActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.finance.TongJiBingActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.finance.MyZhangDanActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.finance.CreateUpdateMessageActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.finance.TimeChoiceActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.finance.RegisterActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.finance.TongJiInMessageActivity"
+            android:label="@string/title_activity_query" >
+        </activity>
+        <activity
+            android:name="com.finance.CreateBorrowMessageActivity"
+            android:label="@string/title_activity_introduce" >
+        </activity>
+        <activity
+            android:name="com.finance.CreateAnswerActivity"
+            android:label="@string/title_activity_creat" >
+        </activity>
+        <activity
+            android:name="com.finance.AnswerReplyActivity"
+            android:label="@string/title_activity_select_images" >
+        </activity>
+        <activity
+            android:name="com.finance.TypeListActivity"
+            android:label="@string/title_activity_show_picture" >
+        </activity>
+        <activity
+            android:name="com.finance.TongJiOutMessageActivity"
+            android:label="@string/title_activity_show_picture" >
+        </activity>
+        <activity
+            android:name="com.finance.UpdatePswdActivity"
+            android:label="@string/title_activity_show_picture" >
+        </activity>
+        <activity
+            android:name="com.finance.MyRecommendActivity"
+            android:label="@string/title_activity_show_create_pictures" >
+        </activity>
+        <activity
+            android:name="com.finance.ReportPersonActivity"
+            android:label="@string/title_activity_report_person" >
+        </activity>
+        <activity
+            android:name="com.finance.ReportComplaintActivity"
+            android:label="@string/title_activity_report_complaint" >
+        </activity>
+        <activity
+            android:name="com.finance.ReportSafeActivity"
+            android:label="@string/title_activity_report_safe" >
+        </activity>
+        <activity
+            android:name="com.finance.UserMessageUpdateActivity"
+            android:label="@string/title_activity_person_title" >
+        </activity>
+        <activity
+            android:name="com.finance.PersonGradeActivity"
+            android:label="@string/title_activity_person_title" >
+        </activity>
+        <activity
+            android:name="com.finance.CreateLimitActivity"
+            android:label="@string/title_activity_person_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.finance.PersonAddActivity"
+            android:label="@string/title_activity_person_add"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.finance.YearResultActivity"
+            android:label="@string/title_activity_year_result" >
+        </activity>
+        <activity
+            android:name="com.finance.CreatePswdMessageActivity"
+            android:label="@string/title_activity_year_result" >
+        </activity>
+        <activity
+            android:name="com.finance.FrameworkActivity"
+            android:label="@string/title_activity_year_result" >
+        </activity>
+        <activity
+            android:name="com.finance.UpdateMessageActivity"
+            android:label="@string/title_activity_house_message" >
+        </activity>
+        <activity
+            android:name="com.finance.PayMessageActivity"
+            android:label="@string/title_activity_pay_message" >
+        </activity>
+        <activity
+            android:name="com.finance.NewsListActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.OrderMessageActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.UserActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.CreateMessageActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.CategoryAddIncomeActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.CategoryIncomeActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.CategoryCostActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.MessageActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.CategoryAddCostActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.SetingMoneyActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.StatisticalActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.CreateTypeMessageActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.SoftMessageActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.GuideTopicDetailActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.PswdMessageActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.UpdateTypeInMessageActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.finance.UpdateTypeOutMessageActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: E./BStest/up1/FinancialProject/app/libs/string_encrypt.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/string_encrypt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
